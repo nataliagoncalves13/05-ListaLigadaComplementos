@@ -27,7 +27,7 @@ void excluirElemento();
 void buscarElemento();
 void Delete(NO* elemInicial, int delNum, bool mid);
 void mostrarDados();
-void Procurar(int Num, NO* inicio, NO* fim)
+void Procurar(int Num, NO* inicio, NO* fim);
 NO* posicaoElemento(int numero);
 
 //--------------------------

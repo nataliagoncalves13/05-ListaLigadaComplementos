@@ -338,7 +338,7 @@ void Delete(NO* elemInicial, int delNum, bool mid){
         elemAtual = elemInicial;
     }
     
-    while (elemAtual = NULL){
+    while (elemAtual != NULL){
         if (first){
             if (elemAtual->valor == delNum){
                 if (mid == false){
